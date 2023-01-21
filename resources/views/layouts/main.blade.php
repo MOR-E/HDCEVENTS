@@ -16,7 +16,30 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
         <!--CSS da aplicação-->
     </head>
-    <body class="">
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="collapse navbar-collapse" id="navbar">
+                     <a href="/" class="navbar-brand">
+                        <img src="/img/hdcevents_logo.svg" alt="HDC Events" class="">
+                     </a>
+                     <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="/" class="nav-link">Eventos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/" class="nav-link">Cadastrar eventos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/" class="nav-link">Entrar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/" class="nav-link">Cadastrar</a>
+                        </li>
+                     </ul>
+                </div>
+            </nav>
+        </header>
        @yield('content')
         <footer classname="footer">
             <p>HDC EVENTS &copy; 2023</p><br>
